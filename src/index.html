@@ -13,22 +13,22 @@
     <meta property="og:image" content="./og.png">
     <meta property="og:description" content="Moj prosty edytor">
     <link rel="icon" href="./favicon.ico">
-    
+
 </head>
 
 <body class="bg-slate-900 text-white flex min-h-screen justify-center items-center">
     <main class="w-full max-w-xl">
         <h1 class="mb-4 text-3xl font-bold text-slate-100">
-            My Editor
+            My Editor <span class="inline-block animate-wiggle">💾</span>
         </h1>
         <textarea id="message" rows="10"
             class="textarea--js mb-4 w-full gap-5 mx-auto p-2.5 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Write your thoughts here..."></textarea>
         <div class="flex justify-end gap-5">
             <button type="button"
-            class="load--js text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load</button>
-        <button type="button"
-            class="save--js focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Save</button>
+                class="load--js text-white bg-blue-700  duration-300 transition-colors hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Load</button>
+            <button type="button"
+                class="save--js focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Save</button>
         </div>
     </main>
     <script type="module" src="main.js"></script>
